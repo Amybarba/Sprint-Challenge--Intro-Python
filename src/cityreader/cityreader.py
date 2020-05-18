@@ -42,6 +42,7 @@ def cityreader(cities=[]):
     # with open('eggs.csv', newline='') as csvfile:
     # spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
     # for row in spamreader:
+    # use float to get to different indicators: 0 = city name, 3 = lat, 4 = lon
     with open('./cities.csv') as csvfile:
         reader = csv.reader(csvfile)
 
