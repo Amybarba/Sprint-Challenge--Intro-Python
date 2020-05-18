@@ -1,7 +1,7 @@
 # Write classes for the following class hierarchy:
 # Each class can simply "pass" for its body. The exercise is about setting up
 # the hierarchy.
-# bases
+# base class is Vehicle
 #  [Vehicle]->[FlightVehicle]->[Starship]
 #      |                |
 #      v                v
